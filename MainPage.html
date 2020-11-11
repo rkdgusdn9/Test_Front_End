@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="MainPage.css" />
+    <script src="ShoppingCart.js"></script>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <nav>
+        <a class="mycart">My Cart ( 4 )</a> 
+        </nav>
+    <div class="content">
+      <img class="picture" src="classic-tee.jpg" alt="white-tee" />
+      <div class="product">
+        <h2>Classic Tee</h2>
+        <h3>$75.00</h3>
+        <p class="description">
+          Dolor sit amet, consectetur adipiscing elit. Haec et tu ita posuisti,
+          et verba vestra sunt. Quod autem ratione actum est, id officium
+          appellamus dolor sit amet, consectetur adipiscing elit. Haec et tu ita
+          posuisti, et verba vestra sunt. Quod autem ratione actum est, id
+          officium appellamus
+        </p>
+        </br>
+        <div class="sizelabel">
+        <label class="control-label" for="SIZE">SIZE</label> <span class="required">*</span>
+        <span class="sizeselect" id="sizeselect"></span>
+
+        </div>
+    </br>
+        <div>
+            <input class="butt" onclick="selectS()" type="button" value="S"/>
+            <input class="butt" onclick="selectM()" type="button" value="M"/>
+            <input class="butt" onclick="selectL()" type="button" value="L"/>
+        </div>
+    </br>
+            <input class="add" type="button" value="ADD TO CART"/>
+      </div>
+    </div>
+    
+  </body>
+</html>
